@@ -1,0 +1,34 @@
+// start jumbotron
+.ms_jumbotron {
+
+  min-height: 100vh;
+  width: 100%;
+}
+
+.ms_img {
+
+  height: 100vh;
+  width: 100%;
+
+  @media screen and (max-width: 992px) {
+
+    min-width: 100%;
+    width: initial;
+  }
+}
+
+.ms_progress {
+
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 50vw;
+
+  ::after {
+
+    content: 'Work in progress...';
+  }
+}
+// end jumbotron
